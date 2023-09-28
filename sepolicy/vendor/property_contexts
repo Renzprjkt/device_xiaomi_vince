@@ -1,0 +1,43 @@
+# Camera
+camera.              		u:object_r:camera_prop:s0
+cameradaemon.SaveMemAtBoot      u:object_r:camera_prop:s0
+cpp.set.clock                   u:object_r:camera_prop:s0
+disable.cpp.power.collapse      u:object_r:camera_prop:s0
+persist.camera.                 u:object_r:camera_prop:s0
+persist.cam.       		u:object_r:camera_prop:s0
+persist.capture.burst.exposures u:object_r:camera_prop:s0
+persist.debug.set.fixedfps      u:object_r:camera_prop:s0
+persist.debug.sf.showfps        u:object_r:camera_prop:s0
+persist.denoise.process.plates  u:object_r:camera_prop:s0
+persist.enable.max.pending.buf  u:object_r:camera_prop:s0
+persist.llvd.preview.disable    u:object_r:camera_prop:s0
+persist.partial.skip            u:object_r:camera_prop:s0
+persist.vendor.camera.  	u:object_r:camera_prop:s0
+ro.camera.         		u:object_r:camera_prop:s0
+
+# Fingerprint
+fpc.fp.miui.token               u:object_r:vendor_fp_prop:s0
+fpc_kpi                         u:object_r:vendor_fp_prop:s0
+gf.debug.dump_data		u:object_r:vendor_fp_prop:s0
+goodix.fp.miui.analyse          u:object_r:vendor_fp_prop:s0
+goodix.fp.miui.token            u:object_r:vendor_fp_prop:s0
+ro.boot.fpsensor                u:object_r:vendor_fp_prop:s0
+ro.hardware.fingerprint         u:object_r:vendor_fp_prop:s0
+sys.fp.				u:object_r:vendor_fp_prop:s0
+
+persist.net.doxlat              u:object_r:vendor_xlat_prop:s0
+wifi.active.interface           u:object_r:wifi_prop:s0
+
+# Hardware
+ro.hardware.chipname		u:object_r:exported_default_prop:s0
+
+# PowerHAL
+vendor.powerhal.		u:object_r:vendor_power_prop:s0
+
+persist.vendor.mwqem.           u:object_r:vendor_mwqem_prop:s0
+
+# Subsystem state notifier
+vendor.subsys_state_notifier.	u:object_r:vendor_subsys_state_notifier_prop:s0
+
+# wlan
+wifi.interface			u:object_r:wifi_hal_prop:s0
